@@ -1,6 +1,8 @@
+import "./Global.css"
+
 const About = () => {
   return (
-    <div style={{ marginLeft: "200px", marginRight: "200px", backgroundColor: "white" }}>
+    <div className="component">
       <h3> Kort om mig: </h3>
       <p>
         Hej! Jag heter Natalie och jag vill verkligen jobba med kod. Jag är

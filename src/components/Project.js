@@ -1,6 +1,8 @@
+import "./Global.css"
+
 const Projects = () => {
     return (
-        <div style={{backgroundColor: "white"}}>
+        <div className="component">
             <h4> Mina projekt</h4>
         </div>
     )

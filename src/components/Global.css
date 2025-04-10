@@ -1,0 +1,16 @@
+.component {
+    max-width: 1200px;
+    min-width: 1200px; /* Maximal bredd för komponenten */
+    margin: 0 auto;    /* Centrerar komponenten horisontellt */
+    padding: 0 20px;   /* Lägger till lite inre marginal på sidorna */
+    background-color: white;
+  }
+  @media (max-width: 768px) {
+    .component {
+      max-width: 100%;
+      min-width: 100%; /* Tillåter komponenten att fylla hela skärmbredden */
+      margin: 0;       /* Tar bort automatiska marginaler */
+      padding: 0 10px; /* Minskar inre marginal för mindre skärmar */
+    }
+  }
+  

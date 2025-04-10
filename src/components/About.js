@@ -3,6 +3,7 @@ import "./Global.css"
 const About = () => {
   return (
     <div className="component">
+      <div className="textdiv">
       <h3> Kort om mig: </h3>
       <p>
         Hej! Jag heter Natalie och jag vill verkligen jobba med kod. Jag är
@@ -33,6 +34,7 @@ const About = () => {
         <li>Älskar böcker, särskillt klassiker som Agatha Christie.</li>
         <li> Har en stark kärlek till Ada Lovelace.</li>
       </ul>
+      </div>
     </div>
   );
 };

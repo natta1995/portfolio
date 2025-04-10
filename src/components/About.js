@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div style={{ marginLeft: "200px", marginRight: "200px" }}>
+    <div style={{ marginLeft: "200px", marginRight: "200px", backgroundColor: "white" }}>
       <h3> Kort om mig: </h3>
       <p>
         Hej! Jag heter Natalie och jag vill verkligen jobba med kod. Jag är

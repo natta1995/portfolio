@@ -1,10 +1,13 @@
 import "./App.css";
+import About from "./components/About";
+import Projects from "./components/Project";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h4>Portfolio - Natalie Hällerdal</h4>
+        <About />
+        <Projects/>
       </header>
     </div>
   );

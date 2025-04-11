@@ -5,10 +5,13 @@ const About = () => {
   return (
     <div className="component">
       <div className="textdiv">
-        <h4> Kort om mig: </h4>
+        <h4> Om mig: </h4>
 
         <p>
-          Hej! Jag heter Natalie och jag vill verkligen jobba med kod. Jag är
+          Hej! Jag heter Natalie och jag vill verkligen jobba med kod. 
+        </p>
+        <p>
+        Jag är
           utbildad frontendutvecklare med inriktning på webbsäkerhet, och jag
           tycker om att bygga lösningar som är tydliga, trygga och användbara.
         </p>
@@ -25,8 +28,9 @@ const About = () => {
 
         <p>
           Är du nyfiken på mig, mina projekt eller bara vill prata
-          programmering? Hör gärna av dig – jag är redo.
+          programmering?
         </p>
+        <p>Hör gärna av dig – jag är redo.</p>
         <div className="about-wrapper">
           <div className="about-text">
             <h4>Tre korta om mig:</h4>

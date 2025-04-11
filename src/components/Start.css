@@ -1,0 +1,15 @@
+.start-section {
+    width: 100vw;
+    height: auto;
+    padding: 150px 20px;
+    background-image: url("../Img/330334348_1249934295917953_4201965388316425524_n.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+    border-radius: 12px;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.3); /* Mörk skugga över bild */
+  }
+  

@@ -7,10 +7,12 @@ const Projects = () => {
         <h4> Mina projekt</h4>
         <div className="projectdiv">
           <h4>DearFriends - Socialamedieplattform</h4>
-          <p>Storlek: STOR</p>
           <p>
-            Syfte: Att skapa en fullstackapplication och kunna exprementera med
-            många olika funktioner.
+            <strong>Storlek:</strong> STOR
+          </p>
+          <p>
+            <strong>Syfte:</strong>Att skapa en fullstackapplication och kunna
+            exprementera med många olika funktioner.
           </p>
           <p>
             Om: En sociala media plattform där du kan dela med dig av inlägg
@@ -19,8 +21,10 @@ const Projects = () => {
             bild och den information du väljer att dela. Självklart kan du
             chatta på tu man hand med dina vänner i realtidschatten.
           </p>
-          <p>Ta del av koden här:</p>
-          <p>Frontend:</p>
+          <p><strong>Ta del av koden här:</strong></p>
+          <p>
+            <strong>Frontend:</strong>
+          </p>
           <a
             href="https://github.com/natta1995/frontend-app"
             target="_blank"
@@ -28,7 +32,9 @@ const Projects = () => {
           >
             https://github.com/natta1995/frontend-app
           </a>
-          <p>Backend:</p>
+          <p>
+            <strong>Backend:</strong>
+          </p>
           <a
             href="https://github.com/natta1995/backend-app"
             target="_blank"
@@ -36,7 +42,9 @@ const Projects = () => {
           >
             https://github.com/natta1995/backend-app
           </a>
-          <p>Öppna sidan här:</p>
+          <p>
+            <strong>Öppna sidan:</strong>
+          </p>
           <a
             href="https://github.com/natta1995/frontend-app"
             target="_blank"
@@ -53,9 +61,9 @@ const Projects = () => {
         </div>
         <div className="projectdiv">
           <h4>BooksByHeart - Webshop (expriment)</h4>
-          <p>Storlek: Medel</p>
-          <p>Syfte: Att exprementera med frontend (bara). </p>
-          <p>Om: </p>
+          <p><strong>Storlek: Medel</strong></p>
+          <p><strong>Syfte:</strong> Att exprementera med frontend (bara). </p>
+          <p><strong>Om: </strong></p>
           <br></br>
           <span> React</span>
           <span> JavaScript</span>

@@ -22,6 +22,46 @@
 }
 
 .projectdiv {
-    padding: 5px;
+    padding: 20px;
     margin-bottom: 40px;
-}
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: #fafafa;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  }
+  
+  .projectdiv h4 {
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    color: #333;
+  }
+  
+  .projectdiv p {
+    margin: 6px 0;
+    line-height: 1.5;
+    color: #444;
+  }
+  
+  .projectdiv a {
+    display: inline-block;
+    margin: 4px 0;
+    color: #0a66c2;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .projectdiv a:hover {
+    text-decoration: underline;
+  }
+  
+  .projectdiv span {
+    display: inline-block;
+    background-color: #e8e8e8;
+    color: #333;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  

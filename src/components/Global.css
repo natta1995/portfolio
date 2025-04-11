@@ -1,67 +1,111 @@
 .component {
-    max-width: 1200px;
-    min-width: 1200px; /* Maximal bredd för komponenten */
-    margin: 0 auto 100px auto;    /* Centrerar komponenten horisontellt */
-    padding: 0 20px;   /* Lägger till lite inre marginal på sidorna */
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  min-width: 1200px; /* Maximal bredd för komponenten */
+  margin: 0 auto 100px auto; /* Centrerar komponenten horisontellt */
+  padding: 0 20px; /* Lägger till lite inre marginal på sidorna */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+  .component {
+    max-width: 100%;
+    min-width: 100%; /* Tillåter komponenten att fylla hela skärmbredden */
+    margin: 0; /* Tar bort automatiska marginaler */
+    padding: 0 10px; /* Minskar inre marginal för mindre skärmar */
   }
-  @media (max-width: 768px) {
-    .component {
-      max-width: 100%;
-      min-width: 100%; /* Tillåter komponenten att fylla hela skärmbredden */
-      margin: 0;       /* Tar bort automatiska marginaler */
-      padding: 0 10px; /* Minskar inre marginal för mindre skärmar */
-    }
-  }
+}
 
 .textdiv {
- padding-top: 20px;
- padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.textdiv h4 {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.textdiv p {
+  margin: 6px 0;
+  line-height: 1.5;
+  color: #444;
+}
+
+.textdiv li {
+  margin: 6px 0;
+  line-height: 1.5;
+  color: #444;
+  text-align: left;
 }
 
 .projectdiv {
-    padding: 20px;
-    margin-bottom: 40px;
-    border: 1px solid #eee;
-    border-radius: 10px;
-    background-color: #fafafa;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
-  }
-  
-  .projectdiv h4 {
-    margin-bottom: 10px;
-    font-size: 1.3rem;
-    color: #333;
-  }
-  
-  .projectdiv p {
-    margin: 6px 0;
-    line-height: 1.5;
-    color: #444;
-  }
-  
-  .projectdiv a {
-    display: inline-block;
-    margin: 4px 0;
-    color: #0a66c2;
-    text-decoration: none;
-    font-weight: 500;
-  }
-  
-  .projectdiv a:hover {
-    text-decoration: underline;
-  }
-  
-  .projectdiv span {
-    display: inline-block;
-    background-color: #e8e8e8;
-    color: #333;
-    padding: 5px 10px;
-    margin: 5px 5px 0 0;
-    border-radius: 5px;
-    font-size: 0.9rem;
-    font-weight: 500;
-  }
-  
+  padding: 20px;
+  margin-bottom: 40px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background-color: #fafafa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.projectdiv h4 {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.projectdiv p {
+  margin: 6px 0;
+  line-height: 1.5;
+  color: #444;
+}
+
+.projectdiv a {
+  display: inline-block;
+  margin: 4px 0;
+  color: #0a66c2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.projectdiv a:hover {
+  text-decoration: underline;
+}
+
+.projectdiv span {
+  display: inline-block;
+  background-color: #e8e8e8;
+  color: #333;
+  padding: 5px 10px;
+  margin: 5px 5px 0 0;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.about-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.about-img {
+  flex-shrink: 0;
+}
+
+.profile-pic {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

@@ -68,6 +68,22 @@ const Projects = () => {
           <span> React</span>
           <span> JavaScript</span>
         </div>
+        <div className="projectdiv">
+          <h4>Min Portfolio</h4>
+          <p><strong>Storlek: Liten</strong></p>
+          <p><strong>Syfte:</strong> Att ge en bild av mig och mina projekt. Är du intresserad av att se koden, följ länken nedan. </p>
+          <p><strong>Ta del av koden här:</strong></p>
+          <a
+            href="https://github.com/natta1995/portfolio"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://github.com/natta1995/portfolio
+          </a>
+          <br></br>
+          <span> React</span>
+          <span> JavaScript</span>
+        </div>
       </div>
     </div>
   );

@@ -4,16 +4,17 @@ const Contact = () => {
   return (
     <div className="component">
       <div className="textdiv">
-        <h4>Mina kontaktuppgifter:</h4>
-        <p>OBS: lättast når du mig på email eller via sms</p>
+        <h4>Kontakta mig:</h4>
+        <p><strong>OBS</strong> lättast når du mig på email eller sms</p>
         <p><strong>E-mail:</strong> natalie.hallerdal@yahoo.se</p>
-        <p><strong>Telefonnummer:</strong> 0735936556</p>
+        <p><strong>Telefonnummer:</strong> +46735936556</p>
+        <br></br>
         <a
           href="https://www.linkedin.com/in/natalie-h%C3%A4llerdal-4b2a9499/"
           target="_blank"
           rel="noreferrer"
         >
-          LinkedIn
+         Besök min LinkedIn
         </a>
         <br></br>
         <a
@@ -21,7 +22,7 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          GitHub
+          Besök min GitHub
         </a>
       </div>
     </div>

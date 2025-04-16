@@ -18,7 +18,7 @@ const Start = () => {
     <div className="start-first-div">
       <div className="start-section">
         <h1>Hej och välkommen till min portfolio!</h1>
-        <h2>/ Natalie Hällerdal</h2>
+        <h2>Natalie Hällerdal</h2>
       </div>
 
       <div className="video-container">
@@ -30,13 +30,13 @@ const Start = () => {
           loop
           muted={isMuted}
           playsInline
-          onClick={handleVideoClick}
+         
         />
-        <p style={{ marginTop: "10px", fontWeight: "500" }}>
+        <b className="button" onClick={handleVideoClick}>
           {isMuted
-            ? "Klicka för att slå på ljudet 🔊"
-            : "Klicka för att stänga av ljudet 🔇"}
-        </p>
+            ? "🔇"
+            : "🔊"}
+        </b>
       </div>
     </div>
   );

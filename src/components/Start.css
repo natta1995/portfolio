@@ -6,42 +6,68 @@
   flex-wrap: wrap; /* gör att det lägger sig under varandra på små skärmar */
   margin-bottom: 100px;
   padding: 0 20px;
-  background-image: url("../Img/330334348_1249934295917953_4201965388316425524_n.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+
   color: white;
   border-radius: 12px;
   width: 100vw;
 }
 
 .start-section {
-  flex: 2; 
-  padding: 80px 40px;
-  min-width: 300px;
-  margin: 0px;
+  flex: 2;
+  text-align: center;
+  height: 33.5vw;
+  margin-right: -50px;
+  background-image: url("../Img/330334348_1249934295917953_4201965388316425524_n.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 200px;
+  border: 1px solid #eee;
+  border-radius: 10px;
 }
 
 .start-section h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 100px;
+  margin-top: 300px;
+  text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+  letter-spacing: 1px;
+  color: #fff;
+  
 }
 
 .start-section h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: 0;
+  text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+  
 }
 
 .video-container {
   flex: 1;
-  min-width: 280px;
-  text-align: center;
+  min-width: 300px;
+  text-align: left;
+  height: 33.5vw;
 }
 
 .intro-video {
   width: 100%;
   max-width: 360px;
-  border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: inline-block;
+  border: 1px solid #eee;
+  border-radius: 10px;
+}
+
+.button {
+  position: absolute;
+  top: 585px;
+  right: 190px;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: bold;
   cursor: pointer;
 }

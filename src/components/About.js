@@ -31,6 +31,7 @@ const About = () => {
           programmering?
         </p>
         <p>Hör gärna av dig – jag är redo.</p>
+        <a href="#contact">Kontaktuppgifter</a>
         <div className="about-wrapper">
           <div className="about-text">
             <h4>Tre korta om mig:</h4>

@@ -32,11 +32,11 @@ const Start = () => {
           playsInline
          
         />
-        <b className="button" onClick={handleVideoClick}>
+        <button className="button" onClick={handleVideoClick}>
           {isMuted
             ? "🔇"
             : "🔊"}
-        </b>
+        </button>
       </div>
     </div>
   );

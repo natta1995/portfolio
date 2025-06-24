@@ -1,73 +1,110 @@
 .start-first-div {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 40px;
-  flex-wrap: wrap; /* gör att det lägger sig under varandra på små skärmar */
-  margin-bottom: 100px;
-  padding: 0 20px;
-
-  color: white;
-  border-radius: 12px;
+  flex-wrap: wrap;
   width: 100vw;
+  padding: 0;
+  margin: 0;
 }
 
+/* === Textfältet med bakgrundsbild === */
 .start-section {
   flex: 2;
-  text-align: center;
-  height: 33.5vw;
-  margin-right: -50px;
+  height: 43.5vw; 
   background-image: url("../Img/330334348_1249934295917953_4201965388316425524_n.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-left: 200px;
-  border: 1px solid #eee;
-  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+  color: white;
+  border-radius: 10px 0 0 10px;
+  margin-right: 0px;
 }
 
+/* === Rubriker === */
 .start-section h1 {
   font-size: 3rem;
-  font-weight: bold;
-  margin-bottom: 100px;
-  margin-top: 300px;
+  margin-bottom: 30px;
   text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
-  letter-spacing: 1px;
-  color: #fff;
-  
 }
 
 .start-section h2 {
   font-size: 2rem;
-  margin-top: 0;
   text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
-  
 }
 
+/* === Videofält === */
 .video-container {
   flex: 1;
-  min-width: 300px;
-  text-align: left;
-  height: 33.5vw;
-}
-
-.intro-video {
-  width: 100%;
-  max-width: 360px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  height: 43.5vw;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  display: inline-block;
-  border: 1px solid #eee;
-  border-radius: 10px;
+  box-sizing: border-box;
+  border-radius: 0 10px 10px 0;
+  overflow: hidden;
 }
 
+/* === Videon === */
+.intro-video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* === Mute-knapp === */
 .button {
   position: absolute;
-  top: 585px;
-  right: 190px;
-  border: none;
-  padding: 8px 12px;
-  border-radius: 8px;
+  bottom: 10px;
+  right: 0px;
+  padding: 6px 10px;
   font-weight: bold;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
   cursor: pointer;
 }
+
+
+@media (max-width: 768px) {
+  .start-first-div {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .start-section,
+  .video-container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .intro-video {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .start-section {
+    background-position: top;
+    padding: 20px;
+  }
+
+  .button {
+    top: unset;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+

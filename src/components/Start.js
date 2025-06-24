@@ -6,13 +6,26 @@ import VideoStart from "../Video/videoStart.mp4";
 const Start = () => {
   const videoRef = useRef(null);
   const [isMuted, setIsMuted] = useState(true);
+  const [isPaused, setIsPaused] = useState(false);
 
-  const handleVideoClick = () => {
+  const handleVideoClickMuted = () => {
     if (videoRef.current) {
       videoRef.current.muted = !videoRef.current.muted;
       setIsMuted(!isMuted);
     }
   };
+
+const handleVideoClickPaused = () => {
+  if (videoRef.current) {
+    if (videoRef.current.paused) {
+      videoRef.current.play();
+      setIsPaused(false);
+    } else {
+      videoRef.current.pause();
+      setIsPaused(true);
+    }
+  }
+}
 
   return (
     <div className="start-first-div">
@@ -30,13 +43,16 @@ const Start = () => {
           loop
           muted={isMuted}
           playsInline
-         
         />
-        <button className="button" onClick={handleVideoClick}>
-          {isMuted
-            ? "🔇"
-            : "🔊"}
-        </button>
+
+        <div className="video-controls">
+          <button className="video-button" onClick={handleVideoClickMuted}>
+            {isMuted ? "🔇" : "🔊"}
+          </button>
+          <button className="video-button" onClick={handleVideoClickPaused}>
+            {isPaused ? "▶️" : "⏸️"}
+          </button>
+        </div>
       </div>
     </div>
   );

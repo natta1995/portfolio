@@ -5,45 +5,63 @@ const About = () => {
   return (
     <div className="component">
       <div className="textdiv">
-        <h4> Om mig: </h4>
+        <h4> About me: </h4>
 
         <p>
-          Hej! Jag heter Natalie och jag vill verkligen jobba med kod. 
-        </p>
-        <p>
-        Jag är
-          utbildad frontendutvecklare med inriktning på webbsäkerhet, och jag
-          tycker om att bygga lösningar som är tydliga, trygga och användbara.
-        </p>
-        <p>
-          Jag är snäll, driven och en sån som lyssnar, lär och gärna hjälper
-          till. Jag tror att teknik blir som bäst när den kombineras med omtanke
-          – både för användaren och teamet. I mina projekt har jag fokuserat på
-          struktur, responsiv design och funktionallitet.
-        </p>
-        <p>
-          Jag är nyfiken, lär mig snabbt och trivs i ett arbetsklimat där man
-          får vara både sig själv och utvecklas tillsammans.
+          Hi, my name is Natalie and I love problem-solving.
         </p>
 
         <p>
-          Är du nyfiken på mig, mina projekt eller bara vill prata
-          programmering?
+          I'm a trained frontend developer with a focus on web security 
+          (mainly JavaScript and React), and I enjoy building solutions 
+          that are clear, secure, and user-friendly.
         </p>
-        <p>Hör gärna av dig – jag är redo.</p>
-        <a href="#contact">Kontaktuppgifter</a>
+
+        <p>
+          Right now, I’m expanding my knowledge by studying backend 
+          development with a focus on cloud technologies 
+          (mainly C# and .NET).
+        </p>
+
+        <p>
+          I’m kind, driven, and someone who listens, learns, and is 
+          always happy to help. I believe that technology is at its best 
+          when it’s built with care — both for the user and the team. 
+          In my projects, I’ve focused on structure, responsive design, 
+          and strong functionality.
+        </p>
+
+        <p>
+          I’m curious, quick to learn, and I thrive in environments 
+          where you can be yourself while growing together with others.
+        </p>
+
+        <p>
+          If you're curious about me, my projects, or just want to talk 
+          programming —
+        </p>
+        <p>Feel free to reach out — I'm ready.</p>
+
+        <a href="#contact">Contact details</a>
+
         <div className="about-wrapper">
           <div className="about-text">
-            <h4>Tre korta om mig:</h4>
+            <h4>Get to know me - Three short facts about me:</h4>
             <ul>
               <li>
-                Älskar att gå i skogen och plocka svamp - till mina näras
-                förtjusning.
+                I love walking in the forest and picking mushrooms — 
+                to the delight of my loved ones.
               </li>
-              <li>Älskar böcker, särskillt klassiker som Agatha Christie.</li>
-              <li> Har en stark kärlek till Ada Lovelace.</li>
+              <li>
+                I'm a big fan of books, especially classics 
+                like Agatha Christie.
+              </li>
+              <li>
+                I love finding new and creative ways to solve problems — whether it's coding, crocheting, or any of my other projects.
+              </li>
             </ul>
           </div>
+
           <div className="about-img">
             <img src={profileImg} alt="Natalie" className="profile-pic" />
           </div>
@@ -54,3 +72,4 @@ const About = () => {
 };
 
 export default About;
+

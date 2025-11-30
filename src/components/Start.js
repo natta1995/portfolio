@@ -30,12 +30,12 @@ const handleVideoClickPaused = () => {
   return (
     <div className="start-first-div">
       <div className="start-section">
-        <h1>Hej och välkommen till min portfolio!</h1>
+        <h1>Hello and welcome to my portfolio!</h1>
         <h2>Natalie Hällerdal</h2>
       </div>
 
-      <div className="video-container">
-        <video
+      {/* <div className="video-container"> */}
+        {/* <video
           ref={videoRef}
           className="intro-video"
           src={VideoStart}
@@ -43,17 +43,17 @@ const handleVideoClickPaused = () => {
           loop
           muted={isMuted}
           playsInline
-        />
+        /> */}
 
-        <div className="video-controls">
+        {/* <div className="video-controls">
           <button className="video-button" onClick={handleVideoClickMuted}>
             {isMuted ? "🔇" : "🔊"}
           </button>
           <button className="video-button" onClick={handleVideoClickPaused}>
             {isPaused ? "▶️" : "⏸️"}
           </button>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </div>
   );
 };

@@ -4,22 +4,22 @@ const Contact = () => {
   return (
     <div className="component">
       <div className="textdiv">
-        <h4>Kontaktuppgifter:</h4>
+        <h4>Contact details:</h4>
         <p>
           <strong>E-mail:</strong> natalie.hallerdal@yahoo.se
         </p>
         <p>
-          <strong>Telefonnummer:</strong> +46735936556
+          <strong>Phone number:</strong> +46735936556
         </p>
         <p style={{ fontSize: "17px" }}>
-          (<strong>OBS</strong> lättast når du mig på email eller sms)
+          (<strong>Note</strong> it's easiest to reach me by email or text message)
         </p>
         <br></br>
 
         <table>
           <tbody>
             <tr>
-              <td>Besök min linkedIn: </td>
+              <td>LinkedIn: </td>
               <a
                 href="https://www.linkedin.com/in/natalie-h%C3%A4llerdal-4b2a9499/"
                 target="_blank"
@@ -30,7 +30,7 @@ const Contact = () => {
             </tr>
 
             <tr>
-              <td>Besök min Github</td>
+              <td>Github</td>
 
               <a
                 href="https://github.com/natta1995"
